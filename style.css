@@ -1,5 +1,5 @@
 * {
-    background:url(./images/back.png);
+    background:url(./source/images/back.png);
     color: antiquewhite;
     font-family: "Audiowide", sans-serif;
 }
@@ -33,6 +33,7 @@
     align-self: center;
     font-size: 16px;
     font-weight: bold;
+    margin-right: 37px;
 }
 
 a:link {
@@ -59,11 +60,17 @@ a:hover {
 
 button {
     border-radius: 5px;
-    border: 5px black;
-    background: goldenrod;
+    border: 5px;
+    border-color: black;
+    background: #ffe064;
+    color: black;
     padding: 5px;
     font-size: 30px;
     align-self: center;
+}
+
+button:hover {
+    background: crimson;
 }
 
 .playlist {
@@ -74,15 +81,116 @@ button {
 }
 
 .playlisthead {
-    border: 5px white;
     background: crimson;
     padding: 5px;
     border-radius: 15px;
     font-size: 20px;
     text-align: center;
+    width: 290px;
 }
 
-iframe {
+.spotify {
     width: 300px;
     height: 80px;
+}
+
+.middle {
+    background-image: url(./source/images/white.jpg);
+    border: 10px black;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    height: 700px;
+    display: flex;
+    overflow:auto;
+}
+
+.article {
+    background-image: url(./source/images/white.jpg) ;
+    border:5px black;
+    margin:15px ;
+    text-align: center;
+}
+
+.article-body {
+    text-align: justify;
+    background-image: url(./source/images/white.jpg);
+    color: black;
+}
+
+.pagelink {
+    color: blue;
+    background-image: url(./source/images/white.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.bottom {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.vid {
+    border: 10px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+}
+
+.end {
+    text-align: center;
+    background: url(./source/images/white.jpg);
+    border-radius: 60px 25px;
+    color: crimson;
+    font-size: 50px;
+    padding: 20px;
+    display: flex;
+}
+
+.foot {
+    margin: 20px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-bottom {
+    border: 10px white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#bio {
+    text-align: justify;
+}
+
+#join-bottom {
+    margin-left: 20px;
+}
+
+.other {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    margin: 10px 300px;
+}
+
+.social-logo {
+    background-image: url(./source/images/back.png);
+    width:auto;
+    height: 50px;
+    margin: 10px;
 }
